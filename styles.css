@@ -32,6 +32,14 @@ body {
   font-style: normal;
 }
 
+.pattern-background {
+  max-width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  position: absolute;
+}
+
 .card-container {
   width: 327px;
   background: var(--white);
