@@ -8,9 +8,112 @@
 }
 
 :root {
+  --white: #fff;
+  --light-blue: #f7f9ff;
   --pale-blue: #e0e8ff;
-  --bright-blue: #3829e0;
+  --bright-blue: #382ae1;
   --very-pale-blue: #f5f7ff;
-  --desaturated-blue: #7280a7;
-  --dark-blue: #1f2f56;
+  --desaturated-blue: #717fa6;
+  --dark-blue: #1f2e55;
+}
+
+body,
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--pale-blue);
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+}
+
+.card-container {
+  width: 327px;
+  background: var(--white);
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+}
+
+.hero-img {
+  max-width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.title {
+  margin: 2rem 0 1rem;
+  font-size: 1.375rem;
+  font-weight: 900;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 0.938rem;
+  color: var(--desaturated-blue);
+  text-align: center;
+  line-height: 25px;
+  width: 263px;
+}
+
+.price-container {
+  background-color: var(--light-blue);
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border-radius: 11px;
+}
+
+.price-details {
+  margin: 0 50px 0 20px;
+}
+
+.plan-txt {
+  font-weight: 900;
+  font-size: 0.875rem;
+  line-height: 19px;
+  color: var(--dark-blue);
+  margin-bottom: 0.188rem;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 19px;
+  color: var(--desaturated-blue);
+}
+
+.change-plan-link {
+  font-weight: 700;
+  font-size: 0.813rem;
+  line-height: 17px;
+}
+
+.payment-btn {
+  background: var(--bright-blue);
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  border: none;
+  font-weight: 900;
+  font-size: 0.938rem;
+  color: var(--white);
+  padding: 0.938rem 4rem;
+}
+
+.cancel-order {
+  margin: 1.5rem 0 2rem 0;
+  font-weight: 900;
+  font-size: 0.938rem;
+  line-height: 20px;
+  color: var(--desaturated-blue);
+}
+
+footer {
+  text-align: center;
+  margin-top: 1rem;
 }
