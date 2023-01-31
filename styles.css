@@ -145,7 +145,6 @@ footer {
 @media (min-width: 1024px) {
   .card-container {
     width: 450px;
-    margin-top: -1rem;
   }
 
   .title {
