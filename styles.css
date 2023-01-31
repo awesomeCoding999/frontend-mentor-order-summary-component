@@ -166,6 +166,7 @@ footer {
   .price-container {
     margin-top: 1.25rem;
     margin-bottom: 2rem;
+    padding: 1.563rem;
   }
 
   .price-details {
