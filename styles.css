@@ -150,6 +150,7 @@ footer {
 
   .title {
     font-size: 1.75rem;
+    margin-top: 2.813rem;
   }
 
   .description {
@@ -160,6 +161,11 @@ footer {
   .price-container,
   .payment-btn {
     width: 354px;
+  }
+
+  .price-container {
+    margin-top: 1.25rem;
+    margin-bottom: 2rem;
   }
 
   .price-details {
