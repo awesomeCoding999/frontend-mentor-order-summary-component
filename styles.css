@@ -12,6 +12,7 @@
   --light-blue: #f7f9ff;
   --pale-blue: #e0e8ff;
   --bright-blue: #382ae1;
+  --light-purple: #766cf1;
   --very-pale-blue: #f5f7ff;
   --desaturated-blue: #717fa6;
   --dark-blue: #1f2e55;
@@ -102,6 +103,11 @@ body {
   line-height: 17px;
 }
 
+.change-plan-link:hover {
+  text-decoration: none;
+  color: var(--light-purple);
+}
+
 .payment-btn {
   background: var(--bright-blue);
   box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
@@ -111,6 +117,11 @@ body {
   font-size: 0.938rem;
   color: var(--white);
   padding: 0.938rem 4rem;
+  cursor: pointer;
+}
+
+.payment-btn:hover {
+  background-color: var(--light-purple);
 }
 
 .cancel-order {
@@ -119,6 +130,11 @@ body {
   font-size: 0.938rem;
   line-height: 20px;
   color: var(--desaturated-blue);
+  text-decoration: none;
+}
+
+.cancel-order:hover {
+  color: var(--dark-blue);
 }
 
 footer {
