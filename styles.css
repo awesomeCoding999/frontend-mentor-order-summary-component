@@ -117,3 +117,27 @@ footer {
   text-align: center;
   margin-top: 1rem;
 }
+
+@media (min-width: 1024px) {
+  .card-container {
+    width: 450px;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .description {
+    width: 354px;
+    padding: 0 1rem;
+  }
+
+  .price-container,
+  .payment-btn {
+    width: 354px;
+  }
+
+  .price-details {
+    margin-right: 5.875rem;
+  }
+}
